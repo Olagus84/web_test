@@ -24,7 +24,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: checkar in på den aktuella branchen och repon
-      - uses: actions/checkout@v2
+        uses: actions/checkout@v2
       
       - name: Setup Dotnet Env
         uses: actions/setup-dotnet@V1
